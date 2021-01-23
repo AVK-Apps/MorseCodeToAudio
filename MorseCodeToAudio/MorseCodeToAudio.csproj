@@ -8,10 +8,16 @@
     <PackageProjectUrl>https://Github.com/avk-apps/MorseCodeToAudio</PackageProjectUrl>
     <PackageIcon>MorseCode.png</PackageIcon>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\MorseCode.UWP\MorseCode.UWP\Assets\MorseCode.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
