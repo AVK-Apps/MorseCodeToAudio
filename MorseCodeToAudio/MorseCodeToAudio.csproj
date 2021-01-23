@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>AVK</Authors>
+    <Company>AVKApps</Company>
+    <Description>Simple .net Standard nuget package that will convert Morse Code to MIDI Audio</Description>
+    <PackageProjectUrl>https://Github.com/avk-apps/MorseCodeToAudio</PackageProjectUrl>
+    <PackageIcon>MorseCode.png</PackageIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\MorseCode.UWP\MorseCode.UWP\Assets\MorseCode.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
