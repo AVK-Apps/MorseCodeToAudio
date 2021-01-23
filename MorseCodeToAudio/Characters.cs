@@ -56,18 +56,6 @@ namespace MorseCodeToAudio
             { "-", "-....-" },
             { "\"", ".-..-." },
             { "@", ".--.-." },
-            // Prosigns -- see
-            // http://en.wikipedia.org/wiki/Prosigns_for_Morse_code
-            { "<aa>", ".-.-" },         // Space down one line (new line)
-            { "<ar>", ".-.-." },        // Stop copying (end of message)
-            { "<as>", ".-..." },        // Stand by
-            { "<bk>", "-...-.-" },      // Break
-            { "<bt>", "-...-" },        // Space down two lines
-            { "<cl>", "-.-..-.." },     // Clear (going off the air)
-            { "<ct>", "-.-.-" },        // Start copying
-            { "<kn>", "-.--." },        // Go only
-            { "<sk>", "...-.-" },       // Silent key (going off the air)
-            { "<sn>", "...-." }         // Understood
         };
     }
 }
