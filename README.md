@@ -1,4 +1,4 @@
-## MorseCodeToAudio
+# MorseCodeToAudio
 
 Convert Morse Code from string to bytes[] and then convert to stream for audio playback. See Examples Below.
 
@@ -35,3 +35,6 @@ You can use [MemoryRandomAccessStream](https://gist.github.com/avknaidu/e6303014
 	mediaPlayer.Source = MediaSource.CreateFromStream(randomAccessStream, "wav");
 	mediaPlayer.Play();
 ```
+
+# Credits
+This Project is based on [jstoddard/CWLibrary](https://github.com/jstoddard/CWLibrary). Thanks to [@jstoddard](https://github.com/jstoddard) for his awesome Library.
